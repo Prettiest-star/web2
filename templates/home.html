@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Spooky Cars 4 You</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+ 
+  
+<html lang="en">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            
+        }
+        body{
+            height: 200vh;
+            
+        }
+        body {
+              background-image: url('static/background.jpg');
+        }
+        .tou{
+             position: fixed;
+             top: 0;
+             left: 0;
+             padding: 25px 100px;
+             width: 100%;
+             display: flex;
+             justify-content: space-between;
+             align-items: center;
+            transition:  0.5s;
+         }
+        .logo{
+             position: relative;
+             font-size: 22px;
+             font-weight: 900;
+             letter-spacing: 1px;
+             color: rgb(28, 36, 148);
+         }
+         .logo::before{
+            content: '';
+            position: absolute;
+            left: -50px;
+            top: -15px;
+            width: 50px;
+            height: 50px;
+            background-image: url(logo.png);
+            background-size: 100%;
+         }
+         .biao{
+             position: relative;
+             display: flex;
+             justify-content: center;
+             align-content: center;
+            list-style: none;
+            left: -135px;
+            
+         }
+        .biao li{
+             position: relative;
+         }
+        .biao a{
+             position: relative;
+             margin: 0 10px;
+             font-size: 18px;
+             font-family: 'fangsong';
+             font-weight: bold;
+             color: rgb(28, 36, 148);
+             text-decoration: none;
+
+         }
+          
+        .bian{
+            padding: 15px 100px;
+            background-color: rgb(71, 105, 219);
+        }
+        .bian .logo,.tou.bian a{
+            color: rgb(252, 247, 247);
+        }
+       /*Background image style*/
+        .bjimg {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      min-width: 1000px;
+      z-index: -10;
+      zoom: 1;
+    }
+        div.plan img
+    {
+      padding:10px;
+    }
+    html, body
+      {
+        font-family:arial,helvetica,sans-serif;
+        height:100%;
+        color: #ffffff;
+        background:url('/static/bg.png');
+        background-color: #fff;
+        background-size: cover;
+        -webkit-background-size: cover;
+        -o-background-size: cover;
+        background-position: center 0;
+      }
+    div.planclose
+    {
+      padding:10px;
+      text-align:center;
+      font-size:12px;
+    }
+
+    div.planclose table
+    {
+      width:75%;
+      margin-left:auto;
+      margin-right:auto;
+    }
+
+    div.planclose td
+    {
+      background-color:#000000;
+      text-align:center;
+      padding:5px;
+    }
+
+    div.plantxt
+    {
+      width:220px;
+      height:180px;
+      padding:5px;
+      margin-top:5px;
+      margin-bottom:5px;
+      margin-left:auto;
+      margin-right:auto;
+      font-size:15px;
+      font-family:'Creepster';
+    }
+
+    div.plantxt a h3
+    {
+      background-color:#947B14;
+      color:#ffffff;
+      text-decoration:none;
+      text-align: center;
+    } 
+
+    div.plantxt a:hover h3:hover
+    {
+      background-color:#00002c;
+      color:#ffffff;
+      text-decoration:none;
+    }
+    </style>
+<body>
+    <!-- background image-->
+    <div class="bjimg"></div>
+    <div class  = "navbar" >
+      <nav>
+        <ul>
+           <center><li><a href="#">Cars 4 Sale</a></li></center> 
+        </ul>
+    </nav>
+
+    </div>
+  
+    <script>
+        window.addEventListener('scroll',function(){
+            let tou = document.querySelector('.tou');
+            
+           
+           /*  tou.classList.toggle("bian",window.scrollY>0); */
+           if(window.scrollY>0)
+            {
+                tou.classList.add("bian");
+            }else{
+                tou.classList.remove("bian");
+            }
+        })
+    </script>
+    <br>
+    <br>
+    <div class="main">
+      <h2>TITLE HEADING</h2>
+      <h5>Title description, Dec 7, </h5>
+      <center><img src="static/car1.jpg" /></center>
+      <p>Some text..</p>
+      <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+      <br>
+      <h2>TITLE HEADING</h2>
+      <h5>Title description, Dec 7, </h5>
+      <center><img src="static/car2.jpg" /></center>
+      <p>Some text..</p>
+      <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+      <br>
+      <<h2>TITLE HEADING</h2>
+      <h5>Title description, Dec 7, </h5>
+      <center><img src="static/car3.jpg" /></center>
+      <p>Some text..</p>
+      <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+      <br>
+    </div>
+
+  </body>
+</html>
