@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Spooky Cars 4 You</title>
+    <link href='https://fonts.googleapis.com/css?family=Creepster' rel='stylesheet'>
+<style>
+body {
+    font-family: 'Creepster';font-size: 22px;
+}
+</style>
+</head>
+<body>
+  </head>
+ 
+  
+<html lang="en">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            
+        }
+        body{
+            height: 200vh;
+            
+        }
+        body {
+              background-image: url('static/background.jpg');
+        }
+        .tou{
+             position: fixed;
+             top: 0;
+             left: 0;
+             padding: 25px 100px;
+             width: 100%;
+             display: flex;
+             justify-content: space-between;
+             align-items: center;
+            transition:  0.5s;
+         }
+        .logo{
+             position: relative;
+             font-size: 22px;
+             font-weight: 900;
+             letter-spacing: 1px;
+             color: rgb(28, 36, 148);
+         }
+         .logo::before{
+            content: '';
+            position: absolute;
+            left: -50px;
+            top: -15px;
+            width: 50px;
+            height: 50px;
+            background-image: url(logo.png);
+            background-size: 100%;
+         }
+         .biao{
+             position: relative;
+             display: flex;
+             justify-content: center;
+             align-content: center;
+            list-style: none;
+            left: -135px;
+            
+         }
+        .biao li{
+             position: relative;
+         }
+        .biao a{
+             position: relative;
+             margin: 0 10px;
+             font-size: 18px;
+             font-family: 'fangsong';
+             font-weight: bold;
+             color: rgb(28, 36, 148);
+             text-decoration: none;
+
+         }
+          
+        .bian{
+            padding: 15px 100px;
+            background-color: rgb(71, 105, 219);
+        }
+        .bian .logo,.tou.bian a{
+            color: rgb(252, 247, 247);
+        }
+       /*Background image style*/
+        .bjimg {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      min-width: 1000px;
+      z-index: -10;
+      zoom: 1;
+    }
+        div.plan img
+    {
+      padding:10px;
+    }
+    html, body
+      {
+        font-family: Creepster 400;
+        height:100%;
+        color: #ffffff;
+        background:url('/static/bg.png');
+        background-color: #fff;
+        background-size: cover;
+        -webkit-background-size: cover;
+        -o-background-size: cover;
+        background-position: center 0;
+      }
+    div.planclose
+    {
+      padding:10px;
+      text-align:center;
+      font-size:12px;
+    }
+
+    div.planclose table
+    {
+      width:75%;
+      margin-left:auto;
+      margin-right:auto;
+    }
+
+    div.planclose td
+    {
+      background-color:#000000;
+      text-align:center;
+      padding:5px;
+    }
+
+    div.plantxt
+    {
+      width:220px;
+      height:180px;
+      padding:5px;
+      margin-top:5px;
+      margin-bottom:5px;
+      margin-left:auto;
+      margin-right:auto;
+      font-size:15px;
+      font-family:'Creepster';
+    }
+
+    .navbar {
+  overflow: hidden;
+  background-color: #000000;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #FF8500;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+.navbar a.right {
+  float: right;
+}
+
+.navbar a:hover {
+  background-color: #FF8500;
+  color: black;
+}
+    
+    </style>
+<body>
+    <!-- background image-->
+    <div class="bjimg"></div>
+    <div class  = "navbar" >
+      <nav>
+        <ul>
+           <center><li><a href="#">Cars 4 Sale</a></li></center> 
+        </ul>
+    </nav>
+
+    </div>
+  
+    <script>
+        window.addEventListener('scroll',function(){
+            let tou = document.querySelector('.tou');
+            
+           
+           /*  tou.classList.toggle("bian",window.scrollY>0); */
+           if(window.scrollY>0)
+            {
+                tou.classList.add("bian");
+            }else{
+                tou.classList.remove("bian");
+            }
+        })
+    </script>
+    <br>
+    <br>
+    <div class="main">
+      <center><h2>The Devils Sidewalk</h2></center>
+      <center><h5>Origins: Unknown </h5><center>
+      <center><img src="static/car1.jpg" /></center>
+      <p>Posted by User "Lucy-firr" </p>
+      <p>Cost: $666<p>
+      </p>Contact Info: Arrive at the nearest cemetary at exactly 3:33. Stomp on the ground 6 times in intervals of three.</p>
+      </p>*Sellar is known to have a second contract on hand- does not cost an arm and a leg, but a soul.</p>
+      <br>
+      <center><h2>The Sports Spider</h2></center>
+      <center><h5>Drove itself to my house, send help</h5></center>
+      <center><img src="static/car2.jpg" /></center>
+      <p>Posted by User "Ded Vil"</p>
+      </p>Cost: Your Life</p>
+      <p>Contact Info: call 666-666-6666 </p>
+      <br>
+      <center><h2>The Pumpkin Publish</h2></center>
+      <center><h5>put something here idk yet </h5></center>
+      <center><img src="static/car3.jpg" /></center>
+      <p>Posted by User "S8-10" </p>
+      </p>Cost: ALL the Candy Ever.</p>
+      </p>Contact Info: summon your local demon  </p>
+      </p></p>
+      <br>
+    </div>
+
+  </body>
+</html>
