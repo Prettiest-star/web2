@@ -1,0 +1,247 @@
+*
+ 
+html, body
+{
+    font-family:arial,helvetica,sans-serif;
+    color:#ffffff;
+    height:100%;
+}
+ 
+.container
+{
+    min-height:100%;
+    position:relative;
+}
+ 
+div.tbox
+{
+    background-color:#00002c;
+    width:100%;
+    height:120px;
+}
+ 
+div.title
+{
+    background-color:#FF8500;
+    width:902px;
+    height:96px;
+    padding:10px;
+    margin-left:auto;
+    margin-right:auto;
+    border:2px solid #000000;
+}
+ 
+ 
+#menu
+{
+    width:924px;
+    margin-left:auto;
+    margin-right:auto;
+    background:#cccccc;
+    float:center;
+ 
+}
+ 
+#menu ul
+{
+    list-style:none;
+    margin:0;
+    padding:0;
+    width:231px;
+    float:left;
+}
+ 
+#menu a
+{
+    font:bold 12px Creepster 400;
+    display:block;
+    padding:2px 5px;
+    border:1px solid #222222;
+    margin:0;
+    color:#000000;
+    background: #cccccc;
+    text-decoration:none;
+}
+ 
+#menu a:hover
+{
+    color:#ffffff;
+    background:#00002c;
+}
+ 
+#menu ul ul
+{
+    position:absolute;
+    z-index:20;
+}
+ 
+div#menu ul ul
+{
+    display:none;
+}
+ 
+div#menu ul li:hover ul
+{
+    display:block;
+}
+ 
+div.adbox
+{
+    background-color:#cccccc;
+    width:947px;
+    padding:0px;
+    margin:0px auto;
+    text-align:center;
+    border:2px solid #222222;
+    font-size:14px;
+    color:#000000;
+}
+ 
+div.adbox td
+{
+    width:470px;
+    padding:0px;
+    margin:0px;
+}
+ 
+div.bdesc
+{
+    background-color:#cccccc;
+    width:902px;
+    height:auto;
+    padding:10px;
+    padding-bottom:25px;
+    margin:0px auto;
+    border:2px solid #222222;
+    font-size:14px;
+    color:#000000;
+}
+ 
+div.bdesc a:link
+{
+    text-decoration:none;
+    color:#FF8500;
+}
+ 
+div.bdesc a:visited
+{
+    text-decoration:none;
+    color:#FF8500;
+}
+ 
+div.bdesc a:hover
+{
+    text-decoration:underline;
+    color:#FF8500;
+}
+ 
+ 
+ 
+div.main
+{
+    width:900px;
+    min-height:500px;
+    margin:0px auto;
+    text-align:center;
+    padding-bottom:25px;
+}
+ 
+div.fixmenu
+{
+    width:100px;
+    background:#cccccc;
+    position:fixed;
+    bottom:25px;
+}
+ 
+div.fixmenu ul
+{
+    list-style:none;
+    margin:0;
+    padding:0;
+}
+ 
+div.fixmenu a:link
+{
+    font:bold 12px arial, helvetica, sans-serif;
+    display:block;
+    padding:2px 5px;
+    border:1px solid #222222;
+    margin:0;
+    color:#000000;
+    background: #cccccc;
+    text-decoration:none;
+}
+ 
+div.fixmenu a:visited
+{
+    font:bold 12px arial, helvetica, sans-serif;
+    display:block;
+    padding:2px 5px;
+    border:1px solid #222222;
+    margin:0;
+    color:#000000;
+    background: #cccccc;
+    text-decoration:none;
+}
+ 
+div.fixmenu h3
+{
+    font:bold 14px arial, helvetica, sans-serif;
+    display:block;
+    padding:2px 5px;
+    border:1px solid #222222;
+    margin:0;
+    color:#000000;
+    background: #cccccc;
+ 
+}
+ 
+div.fixmenu a:hover
+{
+    color:#ffffff;
+    background:#00002c;
+}
+ 
+div.plan img
+{
+    border:2px solid #222222;
+    padding:10px;
+}
+ 
+ 
+div.planclose
+{
+    padding:10px;
+    text-align:center;
+    font-size:12px;
+}
+ 
+div.planclose table
+{
+    width:75%;
+    margin-left:auto;
+    margin-right:auto;
+}
+ 
+div.planclose td
+{
+    background-color:#000000;
+    text-align:center;
+    padding:5px;
+}
+ 
+div.plantxt
+{
+    width:220px;
+    height:180px;
+    border:2px solid #222222;
+    padding:5px;
+    margin-top:5px;
+    margin-bottom:5px;
+    margin-left:auto;
+    margin-right:auto;
+    font-size:15px;
+}
+ 
+
